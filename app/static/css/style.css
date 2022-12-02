@@ -1,11 +1,7 @@
-*{
-    font-family:arial;
+* {
+    font-family: Tahoma;
 }
 
-body{
-    background-color:MediumSlateBlue;
-}
-.card-img-top{
-    width: 251px;
-    height: 241px;
+body {
+    background-color: lightblue;
 }
