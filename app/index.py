@@ -1,7 +1,7 @@
 from flask import render_template, request, redirect, session, jsonify
-from saleapp import dao, app, login, admin, utils
+from app import dao, app, login, admin, utils
 from flask_login import login_user, logout_user, current_user, login_required
-from saleapp.decorators import annonymous_user
+from app.decorators import annonymous_user
 import cloudinary.uploader
 
 

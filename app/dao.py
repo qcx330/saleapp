@@ -1,6 +1,6 @@
-from saleapp.models import Category, Product, User, Receipt, ReceiptDetails
+from app.models import Category, Product, User, Receipt, ReceiptDetails
 from flask_login import current_user
-from saleapp import db
+from app import db
 import hashlib
 
 
