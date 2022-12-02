@@ -8,7 +8,7 @@ from flask_babelex import Babel
 
 app = Flask(__name__)
 app.secret_key = '$%^*&())(*&%^%4678675446&#%$%^&&*^$&%&*^&^'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:%s@localhost/it01saledbv1?charset=utf8mb4' % quote('Admin@123')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:%s@localhost/it01saledb?charset=utf8mb4' % quote('Quynh1@3')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.config['CART_KEY'] = 'cart'
 
